@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  /*position: relative;
+  background-color: #121212;*/
+}
+
+
+button {
+  display: none;
+  position: absolute;
+  font-family: Abril Fatface;
+  font-size: 40px;
+  background-color: rgb(238, 238, 184);
+  color: rgb(255, 115, 0);
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+button:hover {
+  transform: scale(1.5);
+}
+
+.active {
+  display: block;
+}
